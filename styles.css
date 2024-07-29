@@ -1,0 +1,34 @@
+/* css styles */
+
+.grid {
+  display: flex;
+}
+
+.logos, .articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.articles > div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.articles > div > .logo {
+  margin-right: 10px;
+}
+
+.g-col-2 {
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+
+.g-col-10 {
+  flex: 0 0 90%;
+  max-width: 90%;
+}
